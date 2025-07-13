@@ -1,0 +1,13 @@
+# Step 1: Navigate to project directory
+cd ~/alx-intermediate-frontend
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
+
+# Step 2: Install NVM (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Step 3: Restart terminal and install Node.js v20.16
+nvm install 20.16.0
+
+# Step 4: Install Sass version 3.7.4
+npm install sass@3.7.4
